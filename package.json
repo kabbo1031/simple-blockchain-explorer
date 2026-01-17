@@ -1,0 +1,7 @@
+{
+  "name": "simple-blockchain-explorer",
+  "version": "1.0.0",
+  "description": "Beginner blockchain explorer project",
+  "main": "app.js",
+  "license": "MIT"
+}
