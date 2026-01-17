@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Blockchain Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Blockchain Explorer</h1>
+
+    <button id="loadBtn">Load Blockchain Data</button>
+
+    <p><strong>Latest Block:</strong> <span id="blockNumber">-</span></p>
+    <p><strong>Transaction Count:</strong> <span id="txCount">-</span></p>
+    <p><strong>Network:</strong> <span id="network">-</span></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <script src="config.js"></script>
+    <script src="provider.js"></script>
+    <script src="explorer.js"></script>
+    <script src="ui.js"></script>
+    <script src="utils.js"></script>
+    <script src="logger.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
